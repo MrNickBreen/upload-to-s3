@@ -1,2 +1,3 @@
-# upload-to-s3
-Uploads files to s3 bucket for steal-my-idea podcast
+This script searches for all files in the folder `files-to-upload`, uploads them to my s3 bucket called `stealmyidea`, and then locally moves the file to `files-that-have-been-uploaded`. This will help the steal-my-idea podcast upload the episodes faster after recording them. 
+
+To run `./main.py` and follow the prompts. Also note, you need to set up Aws command line credentials and have a s3 bucket named 'stealmyidea'.
